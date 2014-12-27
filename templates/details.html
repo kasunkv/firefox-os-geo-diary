@@ -1,0 +1,17 @@
+<ion-view view-title="">
+    <ion-content>
+        <div class="page-content">
+            <h1 class="details-title">{{selectedItem.Title}}</h1>
+            <p>{{selectedItem.Description}}</p>
+            <ui-gmap-google-map
+                    center='map.center'
+                    zoom='map.zoom'
+                    draggable="true"
+                    options="options">
+                <ui-gmap-marker coords="marker.coords" options="marker.options" idkey="marker.id">
+                </ui-gmap-marker>
+            </ui-gmap-google-map>
+            <h4>{{selectedItem.Timestamp}}</h4>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,72 @@
+/* Empty. Add your own CSS if you like */
+.page-content {
+    padding: 12px;
+    text-align: center;
+}
+
+.location-btn {
+    /*color: #61b019;*/
+    color: #42790f;
+    /*margin-top: 84px;*/
+    /*font-size: 192px;*/
+}
+
+.location-btn:active {
+    color: #61b019;
+    opacity: 0.5;
+}
+
+.location-btn:hover {
+    color: #61b019;
+}
+
+.space-small { margin-top: 6px; }
+.space-medium { margin-top: 36px; }
+
+.about-text {
+    font-size: 1.2em;
+    margin-bottom: 24px;
+    margin-top: -6px;
+    color: #888888;
+    /*font-weight: lighter;*/
+}
+
+.about-text-header, .details-title {
+    color: #42790f;
+}
+
+.help-heading {
+    color: #61b019;
+
+}
+
+.help-text {
+    color: #888888;
+}
+
+.custom-input {
+    padding-left: 5px;
+}
+
+.list-title {
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: left;
+}
+
+.angular-google-map-container {
+    width: 100%;
+    height: 300px;
+}
+
+.social-icon-set {
+    margin-top: -12px;
+}
+
+.contact-icon {
+    margin-left: 12px;
+}
+
+.contact-icon:active, .contact-icon:hover {
+    color: #61b019;
+}

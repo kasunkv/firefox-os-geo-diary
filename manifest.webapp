@@ -1,0 +1,33 @@
+{
+    "launch_path": "/index.html",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "version": "1.0",
+    "name": "Geo Diary",
+    "description": "Geo Diary is your companion when you travel. Mark down where you are and save them in your Geo  Diary.",
+    "developer": {
+        "name": "Kasun Kodagoda",
+        "url": "http://www.k2vsoftware.com/"
+    },
+    "icons": {
+        "16": "/icon/icon_16.png",
+        "32": "/icon/icon_32.png",
+        "48": "/icon/icon_48.png",
+        "60": "/icon/icon_60.png",
+        "128": "/icon/icon_128.png"
+
+    },
+	"fullscreen": "true",
+    "permissions": {
+      "push": {
+        "description": "Required to alert the user when location is found"
+        },
+      "geolocation": {
+          "description": "Required to find the current location of the user upon request by user."
+        },
+        "desktop-notification": {
+            "description": "Allows to display notifications on the user's desktop."
+        }
+    }
+}
